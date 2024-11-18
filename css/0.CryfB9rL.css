@@ -181,6 +181,10 @@ button, [role=button] {
     cursor: pointer
 }
 
+.button{
+    background-color: #04AA6D;
+}
+
 :disabled {
     cursor: default
 }
@@ -429,6 +433,10 @@ body {
 
 .float-right {
     float: right
+}
+
+.align-center {
+    text-align: center;
 }
 
 .-ml-1 {
