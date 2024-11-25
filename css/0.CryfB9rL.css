@@ -15,6 +15,7 @@ html, :host {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
+    font-size: 1.1rem;
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
     font-feature-settings: normal;
     font-variation-settings: normal;
@@ -311,7 +312,7 @@ body {
     --tw-contain-size: ;
     --tw-contain-layout: ;
     --tw-contain-paint: ;
-    --tw-contain-style:
+    --tw-contain-style: ;
 }
 
 ::backdrop {
@@ -660,6 +661,11 @@ body {
 
 .-translate-y-1\/2 {
     --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.-translate-y-2 {
+    --tw-translate-y: .5rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
