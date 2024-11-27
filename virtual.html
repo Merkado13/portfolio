@@ -30,11 +30,13 @@
             </div>
             <div class="border-b pb-2 text-3xl font-semibold tracking-tight transition-colors flex gap-3"><h1 class="text-muted" data-svelte-h="svelte-1a8pxc0"><a href="index.html" class="hover:text-primary transition-colors">Portfolio</a> /</h1>
                 <h1>Virtual Production I+D</h1></div>
-            <div class="flex h-full flex-row">
+            <div class="flex h-full flex-col sm:flex-row">
                 <div class="flex basis-1/4 flex-col gap-2 border-r pr-4 pt-4">
+                    <div class="flex justify-center">
                     <picture>
                         <source srcset="vp_tn.png 1x, vp_tn.png 2x" type="image/png">
-                        <img src="" alt="Virtual Production" class="h-auto w-96 rounded-lg [view-transition-name:thumbnail]" width="616" height="353"></picture>
+                        <img src="" alt="Virtual Production" class="h-auto rounded-lg [view-transition-name:thumbnail]" width="616" height="353"></picture>
+                    </div>
                     <div class="flex items-center gap-2 text-muted-foreground">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                              class="lucide-icon lucide lucide-clock size-4">
@@ -57,6 +59,7 @@
                     </div>
                     <div class="flex gap-2"><p data-svelte-h="svelte-r80nj2">Time: 6 months</p>
                     </div>
+                    <p class="border-b"></p>
                 </div>
                 <div class="flex-grow basis-1/2 pl-4 pt-4">
                     
@@ -70,17 +73,19 @@
                         with a relative <strong>low budget in mind</strong>, so that we could achieve a more accessible way to generate similar results to those
                         with high budget and cutting-edge technology.</p> <br>
 
-
-                    <div class="grid h-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-                        <picture>
-                            <source srcset="images/ilumination.gif 1x, images/ilumination.gif  2x" type="image/gif">
-                            <img class="rounded-lg" src="" width="468" height="960">
-                        </picture>
-                        <picture>
-                            <source srcset="images/ricardo.gif 1x, images/ricardo.gif 2x" type="image/gif">
-                            <img class="rounded-lg" src="" width="468" height="960">
-                        </picture>
+                    <div class="flex justify-center">
+                        <div class="grid h-fit grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                            <picture>
+                                <source srcset="images/ilumination.gif 1x, images/ilumination.gif  2x" type="image/gif">
+                                <img class="rounded-lg" src="" width="468" height="960">
+                            </picture>
+                            <picture>
+                                <source srcset="images/ricardo.gif 1x, images/ricardo.gif 2x" type="image/gif">
+                                <img class="rounded-lg" src="" width="468" height="960">
+                            </picture>
+                        </div>
                     </div>
+                        
 
                     <br>
                     
